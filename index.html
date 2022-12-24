@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" coment= "Nos gusta saber que tanto sabes de NBA. Pagina que muestra contenido de este hermoso deporte el cual, comparte mucha gente esta pasion">
+    <meta name="keywords">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Css Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--  -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+<header class="encabezado">
+    <nav>
+        <ul>
+            <li><a href="index.html" class="Nba"> <img class="logo" src="https://nba-pasion.com/wp-content/uploads/2021/04/NBA-Pasion.jpg" width="100px" height="100px" alt="NBA Pasión" id="logo" data-lazy-src="https://nba-pasion.com/wp-content/uploads/2021/04/NBA-Pasion.jpg" data-ll-status="loaded" class="entered lazyloaded"></a> 
+            </li>
+            <li><a href=  "sections/equipos.html">Equipos</a>
+            </li>
+            <li><a href="./sections/historia.html">Historia</a>
+            </li>
+            <li><a href="./sections/algunos jugadores.html">Algunos jugadores</a>
+            </li>
+            <li><a href="./sections/canchas.html">Canchas</a>
+            </li>
+        </ul>
+    </nav>
+    </header>
+
+    <main class="cuerpo">
+        <h1 class="tit">Algunos jugadores</h1>
+        <section>
+        
+        </section  class="container-fluid">
+<div class="row"><!-- los elementos de una fila siempre se dividen en 12; osea que abajo es 12/2 xq hay dos div -->
+    <div class="col mt-5">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner-lg-12 col-md-12 col-sm-12 .cabezaCarrusel">
+                <div class="carousel-item active">
+                    <img src="./img/way-too-early-2021-nba-title-favorites.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/nba_urgency_getty_ringer_1.0.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/Manu.jpg" class="d-block w-100" alt="..." >
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+<footer class="pie"> 
+    <h2 data-aos="flip-down"> Comentarios</h2>
+    <form action="">
+        <label for="nombreApellido" >Nombre y apellido
+            <input type="text" id="nombreApellido" name="nombre-apellido" placeholder="Juan paez">
+        </label>
+        <label for="equipoPref"> Equipo preferido a ganar ésta temporada
+            <input type="text" id="equipoPref" name="Equipo" placeholder="Hets"> 
+        </label>
+        <textarea name="" id="" cols="30" rows="10" placeholder="La NBA me parece super entretenida y..."></textarea>
+        <input type="submit" value="Enviar comentario">
+    </form>
+</footer>
+<!-- Scrip Bundel -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+</script>
+<!--  -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>
